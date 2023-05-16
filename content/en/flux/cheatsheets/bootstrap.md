@@ -19,6 +19,11 @@ touch clusters/my-cluster/flux-system/gotk-components.yaml \
     clusters/my-cluster/flux-system/kustomization.yaml
 ```
 
+```sh
+    musheeza 
+    clusters/my-cluster/flux-system/kustomization.yaml
+```
+
 The Flux controller deployments, container command arguments, node affinity, etc can be customized using
 [Kustomize strategic merge patches and JSON patches](https://github.com/kubernetes-sigs/kustomize/blob/master/examples/patchMultipleObjects.md).
 
