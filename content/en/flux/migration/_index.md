@@ -2,7 +2,7 @@
 title: "Migration"
 linkTitle: "Migration"
 description: "Migration guides for Flux v1 and Helm Operator users."
-weight: 60
+weight: 170
 ---
 
 {{% alert color="danger" title="Flux Legacy has reached end of life." %}}
