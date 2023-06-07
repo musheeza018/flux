@@ -92,7 +92,8 @@ Developers can use techniques like feature flags, [canary releases](https://glos
 
 The Flux project offers a specialised controller called [Flagger](https://github.com/fluxcd/flagger) that implements various progressive delivery techniques. For more information, take a look at [Flagger deployment strategies](https://fluxcd.io/flagger/usage/deployment-strategies/).
 
-##Getting started with Flux
+## Getting started with Flux
+
 This tutorial shows you how to bootstrap Flux to a Kubernetes cluster and deploy a sample application in a GitOps manner.
 
 ## Before you begin
