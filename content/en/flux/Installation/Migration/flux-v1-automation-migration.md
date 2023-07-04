@@ -8,8 +8,7 @@ weight: 20
 "Image Update Automation" is a process in which Flux makes commits to your Git repository when it
 detects that there is a new image to be used in a workload (e.g., a Deployment). In Flux v2 this
 works quite differently to how it worked in Flux v1. This guide explains the differences and how to
-port your cluster configuration from v1 to v2. There is also a [tutorial for using image update
-automation with a new cluster][image-update-tute].
+port your cluster configuration from v1 to v2. There is also a 
 
 ## Overview of changes between v1 and v2
 
@@ -19,8 +18,7 @@ which scanned everything it found in the cluster and updated the Git repository 
 In Flux v2,
 
  - automation is controlled with custom resources, not annotations
- - ordering images by build time is not supported (there is [a section
-   below](#how-to-migrate-annotations-to-image-policies) explaining what to do instead)
+ - ordering images by build time is not supported explaining what to do instead)
  - the fields to update in files are marked explicitly, rather than inferred from annotations.
 
 #### Automation is now controlled by custom resources
@@ -48,8 +46,7 @@ filtered. In Flux v2, you choose an ordering, and separately specify a filter fo
 consider. These are dealt with in detail below.
 
 Selecting an image by build time is no longer supported. This is the implicit default in Flux v1. In
-Flux v2, you will need to tag images so that they sort in the order you would like -- [see
-below](#how-to-use-sortable-image-tags) for how to do this conveniently.
+Flux v2, you will need to tag images so that they sort in the order you would like -- for how to do this conveniently.
 
 #### Fields to update are explicitly marked
 
