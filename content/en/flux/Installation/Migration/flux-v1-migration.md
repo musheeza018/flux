@@ -5,7 +5,7 @@ description: "How to migrate from Flux v1 to v2."
 weight: 20
 card:
   name: migration
-  weight: 100
+  weight: 10
 ---
 
 This guide walks you through migrating from Flux v1 to v2.
