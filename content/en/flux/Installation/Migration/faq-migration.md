@@ -18,10 +18,10 @@ You can easily pick and choose the functionality you need and extend it to serve
 We went through the following steps for our community:
 
 1. Put Flux v1 into maintenance mode (no new features being added; bugfixes and CVEs patched only).
-1. Continued work on the [Flux v2 roadmap](/roadmap/).
+1. Continued work on the .
 1. We provided transition guides for specific user groups, e.g. users of Flux v1 in read-only mode, or of Helm Operator v1, etc. once the functionality was integrated into Flux v2 and it's deemed "ready".
 1. Once the use-cases of Flux v1 were covered, we promised to continue supporting Flux v1 for 6 months.
-1. We [finally archived](/blog/2022/10/september-2022-update/#flux-legacy-v1-retirement-plan) Flux Legacy and Helm Operator.
+1. WeFlux Legacy and Helm Operator.
 
 ### Why did you rewrite Flux?
 
@@ -87,7 +87,7 @@ Custom Prometheus metrics | Generic / common `controller-runtime` Prometheus met
 
 ### Are there any breaking changes?
 
-- In Flux v1 Kustomize support was implemented through `.flux.yaml` files in the Git repository. As indicated in the comparison table above, while this approach worked, we found it to be error-prone and hard to debug. The new [Kustomization CR](https://github.com/fluxcd/kustomize-controller/blob/main/docs/spec/v1/kustomization.md) should make troubleshooting much easier. Unfortunately we needed to drop the support for custom commands as running arbitrary shell scripts in-cluster poses serious security concerns.
+- In Flux v1 Kustomize support was implemented through `.flux.yaml` files in the Git repository. As indicated in the comparison table above, while this approach worked, we found it to be error-prone and hard to debug. The new  should make troubleshooting much easier. Unfortunately we needed to drop the support for custom commands as running arbitrary shell scripts in-cluster poses serious security concerns.
 - Helm users: we redesigned the `HelmRelease` API and the automation will work quite differently, so upgrading to `HelmRelease` v2 will require a little work from you, but you will gain more flexibility, better observability and performance.
 
 ### Is the GitOps Toolkit related to the GitOps Engine?
@@ -100,7 +100,4 @@ After experimentation and considerable thought, we (the maintainers) have found 
 
 There are a variety of ways and we look forward to having you on board building the future of GitOps together:
 
-- [Discuss the direction](https://github.com/fluxcd/flux2/discussions) of Flux v2 with us
-- Join us in #flux-dev on the [CNCF Slack](https://slack.cncf.io)
-- Check out our [contributor docs](/contributing/)
 - Take a look at the [roadmap for Flux v2](/roadmap/)
