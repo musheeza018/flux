@@ -10,8 +10,7 @@ Read the [FAQ]({{< relref "/faq-migration" >}}) to find out what differences are
 
 ## Prerequisites
 
-You will need a Kubernetes cluster version **1.20** or newer
-and kubectl version **1.20** or newer.
+You will need a Kubernetes cluster version **1.20** or newer and kubectl version **1.20** or newer.
 
 ### Install Flux v2 CLI
 
@@ -43,15 +42,14 @@ flux check --pre
 
 ## GitOps migration
 
-Flux v2 offers an installation procedure that is declarative first
-and disaster resilient.
+Flux v2 offers an installation procedure that is declarative first and disaster resilient.
 
 Using the `flux bootstrap` command you can install Flux on a
 Kubernetes cluster and configure it to manage itself from a Git
 repository. The Git repository created during bootstrap can be used 
 to define the state of your fleet of Kubernetes clusters.
 
-For a detailed walk-through of the bootstrap procedure please see the [installation guide](../installation/_index.md).
+For a detailed walk-through of the bootstrap procedure please see the [installation guide](../Installation/_index.md).
 
 {{% alert color="info" color="warning" title="'flux bootstrap' target" %}}
 `flux bootstrap` should not be run against a Git branch or path
@@ -176,7 +174,7 @@ $ flux create kustomization app \
 ✔ applied revision main@sha1:5302d04c2ab8f0579500747efa0fe7abc72c8f9b
 ```
 
-If your repository contains secrets encrypted with Mozilla SOPS, please read this [guide](../installation/_index.md).
+If your repository contains secrets encrypted with Mozilla SOPS, please read this [guide](../Installation/_index.md).
 
 Pull changes from Git and apply them immediately:
 
@@ -277,9 +275,8 @@ flux create alert app \
   --event-source=Kustomization/app
 ```
 
-For more details, read the guides on how to configure
-[notifications]({{< relref "../guides/notifications.md" >}}) and
-[webhooks]({{< relref "../guides/webhook-receivers.md" >}}).
+For more details, read the guides on how to configure [notifications](../guides/notifications.md) and 
+[webhooks](../guides/webhook-receivers.md).
 
 ### Flux debugging
 
