@@ -57,7 +57,7 @@ files that aren't Kubernetes objects, like `kustomization.yaml`).
 
 ## Preparing for migration
 
-It is best to complete migration of your system to _Flux v2 syncing_ first, using the [Flux v1 migration guide][flux-v1-migration]. This will remove Flux v1 from the system, along with its image
+It is best to complete migration of your system to _Flux v2 syncing_ first, using the [Flux v1 migration guide](./flux-v1-migration.md). This will remove Flux v1 from the system, along with its image
 automation. You can then reintroduce automation with Flux v2 by following the instructions in this
 guide.
 
