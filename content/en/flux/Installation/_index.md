@@ -75,14 +75,14 @@ choco install flux
 {{% /tab %}}
 {{< /tabpane >}}
 
-To configure your shell to load `flux` [bash completions](./cmd/flux_completion_bash.md) add to your profile:
+To configure your shell to load `flux` [bash completions](../cmd/flux_completion_bash.md) add to your profile:
 
 ```sh
 . <(flux completion bash)
 ```
 
-[`zsh`](./cmd/flux_completion_zsh.md), [`fish`](./cmd/flux_completion_fish.md),
-and [`powershell`](./cmd/flux_completion_powershell.md)
+[`zsh`](../cmd/flux_completion_zsh.md), [`fish`](../cmd/flux_completion_fish.md),
+and [`powershell`](../cmd/flux_completion_powershell.md)
 are also supported with their own sub-commands.
 
 A container image with `kubectl` and `flux` is available on DockerHub and GitHub:
@@ -108,8 +108,8 @@ architectures.
 If your Git provider is **AWS CodeCommit**, **Azure DevOps**, **Bitbucket Server**, **GitHub** or **GitLab** please
 follow the specific bootstrap procedure:
 
-* [AWS CodeCommit](./use-cases/aws-codecommit.md#flux-installation-for-aws-codecommit)
-* [Azure DevOps](./use-cases/azure.md#flux-installation-for-azure-devops)
+* [AWS CodeCommit](../use-cases/aws-codecommit.md#flux-installation-for-aws-codecommit)
+* [Azure DevOps](../use-cases/azure.md#flux-installation-for-azure-devops)
 * [Bitbucket Server and Data Center](#bitbucket-server-and-data-center)
 * [GitHub.com and GitHub Enterprise](#github-and-github-enterprise)
 * [GitLab.com and GitLab Enterprise](#gitlab-and-gitlab-enterprise)
