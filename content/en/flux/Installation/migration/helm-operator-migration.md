@@ -22,9 +22,9 @@ In combination with the fact that [Helm v2 reaches end of life after November 13
 
 When working with the Helm Operator, you had to mount various files to either make it recognize new (private) Helm repositories or make it gain access to Helm and/or Git repositories. While this approach was declarative, it did not provide a great user experience and was at times hard to set up.
 
-By moving this configuration to [`HelmRepository`](../components/source/helmrepositories.md), [`GitRepository`](../components/source/gitrepositories.md), [`Bucket`](../components/source/buckets.md) and [`HelmChart`](../components/source/helmcharts.md) Custom Resources, they can now be declaratively described (including their credentials using references to `Secret` resources), and applied to the cluster.
+By moving this configuration to [`HelmRepository`](../integrating-flux/helmrepositories.md), [`GitRepository`](../components/source/gitrepositories.md), [`Bucket`](../components/source/buckets.md) and [`HelmChart`](../components/source/helmcharts.md) Custom Resources, they can now be declaratively described (including their credentials using references to `Secret` resources), and applied to the cluster.
 
-The reconciliation of these resources has been offloaded to a dedicated [Source Controller](../components/source), specialized in the acquisition of artifacts from external sources.
+The reconciliation of these resources has been offloaded to a dedicated [Source Controller](../components/source/_index.md), specialized in the acquisition of artifacts from external sources.
 
 The result of this all is an easier and more flexible configuration, with much better observability. Failures are traceable to the level of the resource that lead to a failure, and are easier to resolve. As polling intervals can now be configured per resource, you can customize your repository and/or chart configuration to a much finer grain.
 
