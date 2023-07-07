@@ -1,4 +1,3 @@
-
 ---
 title: "Automate image updates to Git"
 linkTitle: "Automate image updates to Git"
