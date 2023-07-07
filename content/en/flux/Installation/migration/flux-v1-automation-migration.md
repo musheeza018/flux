@@ -191,7 +191,7 @@ In Flux v1, automation was run by default. With Flux v2, you have to explicitly 
 which Git repository to update and how to do so. These are defined in an `ImageUpdateAutomation`
 object; but first, you need a `GitRepository` with write access, for the automation to use.
 
-If you followed the [Flux v1 read-only migration guide][flux-v1-migration], you will have a
+If you followed the [Flux v1 read-only migration guide](./flux-v1-migration.md), you will have a
 `GitRepository` defined in the namespace `flux-system`, for syncing to use. This `GitRepository`
 will have _read_ access to the Git repository by default, and automation needs _write_ access to
 push commits.
