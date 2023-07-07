@@ -22,7 +22,7 @@ In combination with the fact that [Helm v2 reaches end of life after November 13
 
 When working with the Helm Operator, you had to mount various files to either make it recognize new (private) Helm repositories or make it gain access to Helm and/or Git repositories. While this approach was declarative, it did not provide a great user experience and was at times hard to set up.
 
-By moving this configuration to [`HelmRepository`](../integrating-flux/helmrepositories.md), [`GitRepository`](../components/source/gitrepositories.md), [`Bucket`](../components/source/buckets.md) and [`HelmChart`](../components/source/helmcharts.md) Custom Resources, they can now be declaratively described (including their credentials using references to `Secret` resources), and applied to the cluster.
+By moving this configuration to [`HelmRepository`](../integrating-flux/helmrepositories.md), [`GitRepository`](../components/source/gitrepositories.md), [`Bucket`]({{< relref "../integrating-flux/source/buckets" >}}) and [`HelmChart`](../components/source/helmcharts.md) Custom Resources, they can now be declaratively described (including their credentials using references to `Secret` resources), and applied to the cluster.
 
 The reconciliation of these resources has been offloaded to a dedicated [Source Controller](.--./components/source/_index.md), specialized in the acquisition of artifacts from external sources.
 
