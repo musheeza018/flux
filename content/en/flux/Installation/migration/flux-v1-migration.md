@@ -52,7 +52,7 @@ Kubernetes cluster and configure it to manage itself from a Git
 repository. The Git repository created during bootstrap can be used 
 to define the state of your fleet of Kubernetes clusters.
 
-For a detailed walk-through of the bootstrap procedure please see the [installation guide](./_index.md).
+For a detailed walk-through of the bootstrap procedure please see the [installation guide](../_index.md).
 
 {{% alert color="info" color="warning" title="'flux bootstrap' target" %}}
 `flux bootstrap` should not be run against a Git branch or path
@@ -177,7 +177,7 @@ $ flux create kustomization app \
 ✔ applied revision main@sha1:5302d04c2ab8f0579500747efa0fe7abc72c8f9b
 ```
 
-If your repository contains secrets encrypted with Mozilla SOPS, please read this [guide](./_index.md).
+If your repository contains secrets encrypted with Mozilla SOPS, please read this [guide](../_index.md).
 
 Pull changes from Git and apply them immediately:
 
