@@ -9,7 +9,7 @@ hugeTable: true
 {{% alert color="warning" title="Flux Legacy has reached end of life." %}}
 Flux Legacy and Helm Operator have [been archived](/blog/2022/10/september-2022-update/#flux-legacy-v1-retirement-plan).
 
-We strongly recommend you familiarise yourself with the newest Flux and [migrate as soon as possible](/flux/migration/).
+We strongly recommend you familiarise yourself with the newest Flux and [migrate as soon as possible](/flux-v1-migration.md).
 {{% /alert %}}
 
 | Date | Flux 1 | Flux 2 CLI | GOTK[^1] |
