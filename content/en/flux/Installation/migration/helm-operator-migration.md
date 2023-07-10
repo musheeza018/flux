@@ -683,7 +683,7 @@ Here are some things to know:
 * If both the Helm Controller and Helm Operator are running, and both a new and old custom resources define a release, they will fight over the release.
 * The Helm Controller will always perform an upgrade the first time it encounters a new `HelmRelease` for an existing release; this is [due to the changes to release mechanics and bookkeeping](#helm-storage-drift-detection-no-longer-relies-on-dry-runs).
 
-The safest way to upgrade is to avoid deletions and fights by stopping the Helm Operator. Once the operator is not running, it is safe to deploy the Helm Controller (e.g., by following the [Get Started guide](../get-started/index.md), [utilizing `flux install`](../cmd/flux_install.md), or using the manifests from the [release page](https://github.com/fluxcd/helm-controller/releases)), and start replacing the old resources with new resources. You can keep the old resources around during this process, since the Helm Controller will ignore them.
+The safest way to upgrade is to avoid deletions and fights by stopping the Helm Operator. Once the operator is not running, it is safe to deploy the Helm Controller (e.g., by following the [Get Started guide](../concepts/index.md), [utilizing `flux install`](../cmd/flux_install.md), or using the manifests from the [release page](https://github.com/fluxcd/helm-controller/releases)), and start replacing the old resources with new resources. You can keep the old resources around during this process, since the Helm Controller will ignore them.
 
 ### Steps
 
