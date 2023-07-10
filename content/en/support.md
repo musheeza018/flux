@@ -61,7 +61,7 @@ Here are some good entry points to get started with our documentation including 
 
 - [Entry point](/flux/)
 - [Core Concepts](/flux/concepts/)
-- [Getting Started Guide](/flux/get-started/)
+- [Getting Started Guide](/flux/concepts/)
 - [FAQ](/flux/faq/)
 {{% /card %}}
 {{% card header="**Flagger**" %}}
@@ -81,7 +81,7 @@ We as a community are both very thankful and proud to have attracted many incred
 
 As we have been overwhelmed with general questions, troubleshooting requests, feature requests, etc. in the past months, we would like to ask you to:
 
-- Read the [documentation](/flux/get-started/) carefully, check the individual troubleshooting sections for advice on how to interpret logs, use relevant tools, etc.
+- Read the [documentation](/flux/concepts/) carefully, check the individual troubleshooting sections for advice on how to interpret logs, use relevant tools, etc.
 - For Flux questions, see if there are answers on the [GH Discussions page](https://github.com/fluxcd/flux2/discussions)
 - Please don't direct-message project maintainers or relevant others with specific support questions. The few Flux maintainers cannot answer all questions. If you post on [GH Discussions page](https://github.com/fluxcd/flux2/discussions) for Flux questions or message in the appropriate Slack channel, you'll have a better chance at getting an answer from a community member willing to help.
 - Make sure you don't share private information.
