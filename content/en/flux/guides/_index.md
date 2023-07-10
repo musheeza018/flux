@@ -2,5 +2,5 @@
 title: "User Guides"
 linkTitle: "Guides"
 description: "Flux user guides."
-weight: 50
+weight: 160
 ---
