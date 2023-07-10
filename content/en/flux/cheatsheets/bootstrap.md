@@ -5,7 +5,7 @@ description: "Showcase various configurations of Flux controllers at bootstrap t
 weight: 29
 ---
 
-## This is customization of Flux by Musheeza
+## This is customization of Flux
 
 To customize the Flux controllers during bootstrap,
 first you'll need to create a Git repository and clone it locally.
