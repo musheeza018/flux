@@ -1239,7 +1239,7 @@ If you are on GitHub, and are struggling to get started using GitHub Actions, or
 [flux2/issues/543]: https://github.com/fluxcd/flux2/issues/543
 [image update guide]: /flux/guides/image-update/
 [any old app]: https://github.com/kingdonb/any_old_app
-[Flux bootstrap guide]: /flux/get-started/
+[Flux bootstrap guide]: /flux/concepts/
 [String Substitution with sed -i]: #string-substitution-with-sed-i
 [Docker Build and Tag with Version]: #docker-build-and-tag-with-version
 [Jsonnet for YAML Document Rehydration]: #jsonnet-for-yaml-document-rehydration
