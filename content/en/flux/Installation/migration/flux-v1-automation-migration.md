@@ -732,7 +732,7 @@ Once you are satisfied that it is working, you can migrate the rest of the manif
 [imagepolicy-ref]: /flux/components/image/imagepolicies/
 [image-update-tute-custom]: /flux/guides/image-update/#configure-image-update-for-custom-resources
 [flux-v1-migration]: /flux/migration/flux-v1-migration/
-[install-cli]: /flux/get-started/#install-the-flux-cli
+[install-cli]: /flux/concepts/#install-the-flux-cli
 [flux-bootstrap]: /flux/installation/_index.md#bootstrap
 [github-pat]: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
 [image-update-tute-creds]: /flux/guides/image-update/#configure-image-scanning
