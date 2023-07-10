@@ -2,7 +2,7 @@
 title: "Automate image updates to Git"
 linkTitle: "Automate image updates to Git"
 description: "Automate container image updates to Git with Flux."
-weight: 10
+weight: 50
 card:
   name: tasks
   weight: 20
