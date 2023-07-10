@@ -33,7 +33,7 @@ Flux very naturally integrates with these pieces<sup>*</sup> of best-practice Op
 [![Istio](./img/istio.svg)](/flagger/tutorials/istio-progressive-delivery/)
 {{% /card %}}
 {{% card header="[Kubernetes](https://kubernetes.io/)" %}}
-[![Kubernetes](./img/kubernetes.svg)](/flux/get-started/)
+[![Kubernetes](./img/kubernetes.svg)](/flux/concepts/)
 {{% /card %}}
 {{% card header="[Kyverno](https://kyverno.io/)" %}}
 [![Kyverno](./img/kyverno.png)](/blog/2022/02/security-image-provenance/)
@@ -105,7 +105,7 @@ the API.
 ## Where do I start?
 
 {{% alert title="Get started with Flux!" %}}
-Following this [guide](get-started/) will just take a couple of minutes to complete:
+Following this [guide](concepts) will just take a couple of minutes to complete:
 After installing the `flux` CLI and running a couple of very simple commands,
 you will have a GitOps workflow setup which involves a staging and a production cluster.
 {{% /alert %}}
@@ -153,7 +153,7 @@ Need help or want to contribute? Please see the links below. The Flux project is
 new contributors and there are a multitude of ways to get involved.
 
 - Getting Started?
-  - Look at our [Get Started guide](get-started/) and give us feedback
+  - Look at our [Get Started guide](concepts/) and give us feedback
 - Need help?
   - First: Ask questions on our [GH Discussions page](https://github.com/fluxcd/flux2/discussions)
   - Second: Talk to us in the #flux channel on [CNCF Slack](https://slack.cncf.io/)
