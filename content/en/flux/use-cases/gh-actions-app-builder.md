@@ -236,7 +236,7 @@ This is one good fundamental approach to reduce build times. On the topic of cac
 [semantic version]: /contributing/flux/#semantic-versioning
 [Image Update Guide]: /flux/guides/image-update/
 [Sortable image tags]: /flux/guides/sortable-image-tags/
-[Jsonnet Render Action]: /flux/use-cases/gh-actions-manifest-generation/#jsonnet-render-action
+[Jsonnet Render Action]: /flux/workflows/gh-actions-manifest-generation/#jsonnet-render-action
 [Encrypted secrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets
 [Working with GHCR]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 [Docker Login action]: https://github.com/docker/login-action#github-container-registry
