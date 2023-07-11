@@ -583,7 +583,7 @@ The health checking feature is called [Health Assessment][] in the Flux Kustomiz
 [BucketSpec Custom Resource]: /flux/components/source/buckets/
 [HelmRepository Custom Resource]: /flux/components/source/helmrepositories/
 [HelmChart Custom Resource]: /flux/components/source/helmcharts/
-[Mozilla SOPS Guide]: /flux/guides/mozilla-sops/
+[Mozilla SOPS Guide]: /flux/operations/secrets/mozilla-sops/
 [Kustomize Build Flags]: /flux/faq/#what-is-the-behavior-of-kustomize-used-by-flux
 [server-side apply and update]: https://kubernetes.io/docs/reference/using-api/server-side-apply/
 [field management]: https://kubernetes.io/docs/reference/using-api/server-side-apply/#field-management
