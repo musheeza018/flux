@@ -15,7 +15,7 @@ nobody else can obtain the original secret, even if they have access to the Git 
 
 To follow this guide you'll need a Kubernetes cluster with the GitOps 
 toolkit controllers installed on it.
-Please see the [get started guide](../concepts)
+Please see the [get started guide](..../concepts)
 or the [installation guide](../installation/).
 
 The sealed-secrets controller comes with a companion CLI tool called kubeseal.
