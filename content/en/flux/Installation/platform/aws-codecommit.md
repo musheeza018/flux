@@ -107,7 +107,7 @@ EKS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html) to c
 node groups, these IAM permissions are applied to your worker node IAM Role by default.
 {{% /alert %}}
 
-Follow the [Image Update Automation Guide](../workflows/image-update.md) and see the
+Follow the [Image Update Automation Guide](../../workflows/image-update.md) and see the
 [ECR specific section](../workflows/image-update.md#aws-elastic-container-registry) for more details.
 
 Your EKS cluster's configuration can also be updated to
