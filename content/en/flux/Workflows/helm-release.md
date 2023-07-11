@@ -19,7 +19,7 @@ The helm-controller is part of the default toolkit installation.
 
 To follow this guide you'll need a Kubernetes cluster with the GitOps
 toolkit controllers installed on it.
-Please see the [get started guide](../get-started/index.md)
+Please see the [get started guide](../concepts)
 or the [installation guide](../installation/).
 
 ## Define a chart source
