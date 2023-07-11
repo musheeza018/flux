@@ -64,6 +64,6 @@ For more information, please visit the tracking issue: https://github.com/fluxcd
 [AWS Container Registry]: ../workflows/image-update/#using-native-aws-ecr-auto-login
 [Azure Container Registry]: ../workflows/image-update/#using-native-azure-acr-auto-login
 [GCP Container Registry]: ../workflows/image-update/#using-native-gcp-gcr-auto-login
-[AWS KMS]: ../guides/mozilla-sops/#aws
-[Azure KMS]: ../guides/mozilla-sops/#azure
-[GCP KMS]: ../guides/mozilla-sops/#google-cloud
+[AWS KMS]: ../../operations/monitoring/secrets/mozilla-sops/#aws
+[Azure KMS]: ../../operations/monitoring/secrets/mozilla-sops/#azure
+[GCP KMS]: ../../operations/monitoring/secrets/mozilla-sops/#google-cloud
