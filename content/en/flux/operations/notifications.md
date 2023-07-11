@@ -17,7 +17,7 @@ of an app was deployed and if the deployment is healthy.
 ## Prerequisites
 
 To follow this guide you'll need a Kubernetes cluster with Flux installed on it.
-Please see the [get started guide](../get-started/index.md)
+Please see the [get started guide](../concepts/index.md)
 or the [installation guide](../installation/).
 
 The Flux controllers emit Kubernetes events whenever a resource status changes.
@@ -146,7 +146,7 @@ of the event. Therefore the providers will only work with `Kustomization` as an
 event source, as it is the only resource which includes this data.
 {{% /alert %}}
 
-First follow the [get started guide](../../get-started) if you do not have a Kubernetes cluster with Flux installed in it.
+First follow the [get started guide](../../concepts) if you do not have a Kubernetes cluster with Flux installed in it.
 You will need a authentication token to communicate with the API. The authentication method depends on
 the git provider used, refer to the [Provider CRD](../../components/notification/provider/#git-commit-status)
 for details about how to get the correct token. The guide will use GitHub, but the other providers will work in a very similar manner.
