@@ -574,7 +574,7 @@ Message:         stored artifact for digest 'sha256:dbdb109711ffb3be77504d2670db
 ## Automated updates to Git
 
 If you wish to track the OCI artifacts revisions in Git, you can use
-Flux [image automation](/flux/guides/image-update/) to patch the artifacts
+Flux [image automation](/flux/workflows/image-update/) to patch the artifacts
 tags in the YAML manifests stored in the Git repository used at bootstrap.
 
 First we'll configure Flux to clone the bootstrap repository and push commits to the `main` branch:
