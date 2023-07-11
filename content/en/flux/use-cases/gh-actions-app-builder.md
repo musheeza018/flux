@@ -232,17 +232,3 @@ The build result may provide test-driven feedback to support fast iteration for 
 A skillfully designed `Dockerfile` can help provide some relief for builds that are too slow with heavyweight prerequisites that necessarily take a long time to build. Arranging your build order so the slow parts that change less frequently are built first, or in a separate staging, means they can be cached and repeated only as often as they change.
 
 This is one good fundamental approach to reduce build times. On the topic of caching, more information that goes with this example is provided in the [docker/build-push-action Cache] documentation.
-
-[semantic version]: /contributing/flux/#semantic-versioning
-[Image Update Guide]: /flux/workflows/image-update/
-[Sortable image tags]: /flux/guides/sortable-image-tags/
-[Jsonnet Render Action]: /flux/use-cases/gh-actions-manifest-generation/#jsonnet-render-action
-[Encrypted secrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets
-[Working with GHCR]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
-[Docker Login action]: https://github.com/docker/login-action#github-container-registry
-[GitHub Actions Manifest Generation]: /flux/use-cases/gh-actions-manifest-generation/
-[Push updates to a different branch]: /flux/guides/image-update/#push-updates-to-a-different-branch
-[Webhook Receivers]: /flux/guides/webhook-receivers/
-[GitHub Actions Auto Pull Request]: /flux/use-cases/gh-actions-auto-pr/
-[Security: Image Provenance]: /blog/2022/02/security-image-provenance/
-[docker/build-push-action Cache]: https://github.com/docker/build-push-action/blob/master/docs/advanced/cache.md
