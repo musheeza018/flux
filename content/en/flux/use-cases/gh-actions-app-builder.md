@@ -234,7 +234,7 @@ A skillfully designed `Dockerfile` can help provide some relief for builds that 
 This is one good fundamental approach to reduce build times. On the topic of caching, more information that goes with this example is provided in the [docker/build-push-action Cache] documentation.
 
 [semantic version]: /contributing/flux/#semantic-versioning
-[Image Update Guide]: /flux/guides/image-update/
+[Image Update Guide]: /flux/workflows/image-update/
 [Sortable image tags]: /flux/guides/sortable-image-tags/
 [Jsonnet Render Action]: /flux/use-cases/gh-actions-manifest-generation/#jsonnet-render-action
 [Encrypted secrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets
