@@ -76,7 +76,7 @@ improvements, it comes with many new features. The highlights are:
 Automated Image Updates
 -----------------------
 
-[Automated Image Updates Guide](/flux/guides/image-update/) (alpha release)
+[Automated Image Updates Guide](/flux/workflows/image-update/) (alpha release)
 
 Flux v2 now includes two controllers for automating image updates \--
 one of the controllers is for scanning container image repositories, and
