@@ -12,7 +12,7 @@ of its life as a commit, and describe how the commit data passes through the Flu
 every supported opportunity that users have to inspect and interact with their changes through Flux, with a goal of showing the cohesive behavior of each
 component of the [GitOps toolkit][] together in a single document.
 
-Users can start their journey here: [Getting Started][../concepts/] for the beginner's introduction to Flux. Then follow each successive guide in
+Users can start their journey here: [Getting Started](../concepts) for the beginner's introduction to Flux. Then follow each successive guide in
 order to arrive at a fully configured Flux installation with all features enabled. Most users will not need or use all of the features, but we present an
 overview of every required or optional part of Flux here.
 
