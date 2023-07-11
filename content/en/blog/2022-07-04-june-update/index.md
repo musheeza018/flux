@@ -35,7 +35,7 @@ This release comes with new features and improvements.
 - Pull Helm charts from container registries by configuring Helm
   repositories with `type: oci`.\
   For more information please see the [Helm OCI
-  documentation](/flux/guides/helmreleases/#helm-oci-repository)
+  documentation](/flux/workflows/helmreleases/#helm-oci-repository)
 - Trigger GitHub Actions workflows from Flux by configuring alerting
   providers with `type: githubdispatch`.\
   For more information please see the [GitHub dispatch provider
