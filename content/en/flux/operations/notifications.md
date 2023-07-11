@@ -17,7 +17,7 @@ of an app was deployed and if the deployment is healthy.
 ## Prerequisites
 
 To follow this guide you'll need a Kubernetes cluster with Flux installed on it.
-Please see the [get started guide](../concepts/index.md)
+Please see the [get started guide](../concepts)
 or the [installation guide](../installation/).
 
 The Flux controllers emit Kubernetes events whenever a resource status changes.
