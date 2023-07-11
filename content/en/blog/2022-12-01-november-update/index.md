@@ -73,7 +73,7 @@ Here is our shortlist of features and improvements in the release:
   variable substitutions from Secrets and ConfigMaps are skipped, and no
   connection to the cluster is made.
 - Use signed OCI Helm chart for
-  [kube-prometheus-stack](/flux/guides/monitoring/).
+  [kube-prometheus-stack](/flux/operations/monitoring/).
 
 Check out these new pieces of documentation:
 
