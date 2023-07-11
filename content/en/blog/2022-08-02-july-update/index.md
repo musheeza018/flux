@@ -347,7 +347,7 @@ to the following alternatives for UIs for Flux instead.
    ![flux-grafana](/img/cluster-dashboard.png)
    \
    See [the monitoring section of the Flux
-   documentation](/flux/guides/monitoring/)
+   documentation](/flux/operations/monitoring/)
    for how to install Flux\'s Grafana dashboards.
 
 ### New Flux Project Member: Ihor Sychevskyi
