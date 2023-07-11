@@ -728,15 +728,15 @@ $ kubectl logs -n flux-system deploy/image-automation-controller
 
 Once you are satisfied that it is working, you can migrate the rest of the manifests using the steps from ["Migrating each manifest to Flux v2"](#migrating-each-manifest-to-flux-v2) above.
 
-[image-update-tute]: /flux/guides/image-update/
+[image-update-tute]: /flux/workflows/image-update/
 [imagepolicy-ref]: /flux/components/image/imagepolicies/
-[image-update-tute-custom]: /flux/guides/image-update/#configure-image-update-for-custom-resources
+[image-update-tute-custom]: /flux/workflows/image-update/#configure-image-update-for-custom-resources
 [flux-v1-migration]: /flux/migration/flux-v1-migration/
 [install-cli]: /flux/concepts/#install-the-flux-cli
 [flux-bootstrap]: /flux/installation/_index.md#bootstrap
 [github-pat]: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
-[image-update-tute-creds]: /flux/guides/image-update/#configure-image-scanning
-[image-update-tute-clouds]: /flux/guides/image-update/#imagerepository-cloud-providers-authentication
+[image-update-tute-creds]: /flux/workflows/image-update/#configure-image-scanning
+[image-update-tute-clouds]: /flux/workflows/image-update/#imagerepository-cloud-providers-authentication
 [image-tags-guide]: /flux/guides/sortable-image-tags/
 [auto-ref]: /flux/components/image/imageupdateautomations/
 [semver]: https://semver.org
