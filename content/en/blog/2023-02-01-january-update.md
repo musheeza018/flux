@@ -365,7 +365,7 @@ couple of small things we landed recently:
   Flux Kustomization and how to set local overrides to a Helm chart.
   As it's one of the very common FAQs: We also mention the different
   Flux UIs a lot more prominently now!
-- [Flux GCP docs](/flux/use-cases/gcp-source-repository/) were updated.
+- [Flux GCP docs](/flux/gcp-source-repository/) were updated.
 - We improved the [Flux Support page](/support) to be even clearer
   about how to get Support for Flux, no matter if it's professionally
   or for community support.
