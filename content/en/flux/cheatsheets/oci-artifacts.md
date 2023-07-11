@@ -604,7 +604,7 @@ spec:
 ```
 
 You can also configure Flux to push the change to a new branch and open a Pull Request,
-for more details please see the [image automation guide](/flux/guides/image-update/)
+for more details please see the [image automation guide](/flux/workflows/image-update/)
 and [GitHub Actions Auto Pull Request](/flux/workflows/gh-actions-auto-pr/).
 
 ### Flux OCI automation
