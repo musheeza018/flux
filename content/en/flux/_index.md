@@ -45,7 +45,7 @@ Flux very naturally integrates with these pieces<sup>*</sup> of best-practice Op
 [![Prometheus](./img/prometheus.svg)](/flux/operations/monitoring/)
 {{% /card %}}
 {{% card header="[SOPS](https://github.com/mozilla/sops)" %}}
-[![Prometheus](./img/mozilla.jpg)](/flux/guides/mozilla-sops/)
+[![Prometheus](./img/mozilla.jpg)](/flux/operations/secrets/mozilla-sops/)
 {{% /card %}}
 
 {{< /cardpane >}}
