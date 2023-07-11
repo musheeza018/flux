@@ -169,7 +169,7 @@ good ways to do that:
 - Talk to us in the `#flux` channel on [CNCF Slack](https://slack.cncf.io/)
 - Join the [planning discussions](https://github.com/fluxcd/flux2/discussions)
 - And if you are completely new to Flux v2, take a look at our
-  [Get Started guide](/flux/get-started/) and
+  [Get Started guide](/flux/concepts/) and
   give us feedback
 - Social media: Follow [Flux on Twitter](https://twitter.com/fluxcd),
   join the discussion in the [Flux LinkedIn
