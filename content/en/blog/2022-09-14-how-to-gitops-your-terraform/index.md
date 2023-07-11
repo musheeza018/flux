@@ -76,7 +76,7 @@ Now let's move on to how to integrate it practically!
 Obviously you will need a Kubernetes cluster and Flux installed.
 Terraform Controller will require at least Flux 0.32, which in turn
 needs at least Kubernetes version 1.20.6. Either use flux install or
-flux bootstrap as explained in [the Flux documentation](/flux/get-started/).
+flux bootstrap as explained in [the Flux documentation](/flux/concepts/).
 
 ### Installation
 
