@@ -234,14 +234,14 @@ A skillfully designed `Dockerfile` can help provide some relief for builds that 
 This is one good fundamental approach to reduce build times. On the topic of caching, more information that goes with this example is provided in the [docker/build-push-action Cache] documentation.
 
 [semantic version]: /contributing/flux/#semantic-versioning
-[Image Update Guide]: /flux/workflows/image-update/
+[Image Update Guide]: /flux/guides/image-update/
 [Sortable image tags]: /flux/guides/sortable-image-tags/
-[Jsonnet Render Action]: /flux/workflows/gh-actions-manifest-generation/#jsonnet-render-action
+[Jsonnet Render Action]: /flux/use-cases/gh-actions-manifest-generation/#jsonnet-render-action
 [Encrypted secrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets
 [Working with GHCR]: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 [Docker Login action]: https://github.com/docker/login-action#github-container-registry
 [GitHub Actions Manifest Generation]: /flux/use-cases/gh-actions-manifest-generation/
-[Push updates to a different branch]: /flux/workflows/image-update/#push-updates-to-a-different-branch
+[Push updates to a different branch]: /flux/guides/image-update/#push-updates-to-a-different-branch
 [Webhook Receivers]: /flux/guides/webhook-receivers/
 [GitHub Actions Auto Pull Request]: /flux/use-cases/gh-actions-auto-pr/
 [Security: Image Provenance]: /blog/2022/02/security-image-provenance/
