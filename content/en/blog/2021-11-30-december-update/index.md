@@ -365,7 +365,7 @@ good ways to do that:
 - Join the [planning
   discussions](https://github.com/fluxcd/flux2/discussions)
 - And if you are completely new to Flux, take a look at our [Get
-  Started guide](/flux/get-started/)
+  Started guide](/flux/concepts/)
   and give us feedback
 - Social media: Follow [Flux on Twitter](https://twitter.com/fluxcd),
   join the discussion in the [Flux LinkedIn
