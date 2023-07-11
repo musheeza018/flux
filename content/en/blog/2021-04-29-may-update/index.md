@@ -99,7 +99,7 @@ feature](/flux/installation/_index.md#customize-flux-manifests).
 
 The [Image automation guide](/flux/guides/image-update/) has been updated
 to the new APIs, and also includes a reference to a
-new [GitHub Actions use case guide](/flux/use-cases/gh-actions-auto-pr/),
+new [GitHub Actions use case guide](/flux/workflows/gh-actions-auto-pr/),
 for automatic pull request creation with Flux and GitHub Actions. This
 guide is for you, if you want Flux updates to go to a staging branch,
 where they can be reviewed and approved before going to production.
