@@ -576,7 +576,7 @@ The health checking feature is called [Health Assessment][] in the Flux Kustomiz
 [Image reflector and automation controllers]: /flux/components/image/
 [Helm Chart Hooks]: https://helm.sh/docs/topics/charts_hooks/
 [Post Rendering]: https://helm.sh/docs/topics/advanced/#post-rendering
-[image automation guide]: /flux/guides/image-update/#configure-image-update-for-custom-resources
+[image automation guide]: /flux/workflows/image-update/#configure-image-update-for-custom-resources
 [Core Concepts]: /flux/concepts/
 [Get Started with Flux]: /flux/concepts/
 [GitRepository Custom Resource]: /flux/components/source/gitrepositories/
