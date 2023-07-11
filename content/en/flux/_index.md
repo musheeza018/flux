@@ -24,7 +24,7 @@ Flux very naturally integrates with these pieces<sup>*</sup> of best-practice Op
 <div class="works-well-with">
 {{< cardpane >}}
 {{% card header="[Grafana](https://grafana.com/oss/grafana/)" %}}
-[![Grafana](./img/grafana.svg)](/flux/guides/monitoring/)
+[![Grafana](./img/grafana.svg)](/flux/operations/monitoring/)
 {{% /card %}}
 {{% card header="[Helm](https://helm.sh/)" %}}
 [![Helm](./img/helm.svg)](/flux/use-cases/helm/)
@@ -42,7 +42,7 @@ Flux very naturally integrates with these pieces<sup>*</sup> of best-practice Op
 [![Linkerd](./img/linkerd.png)](/flagger/tutorials/linkerd-progressive-delivery/)
 {{% /card %}}
 {{% card header="[Prometheus](https://prometheus.io/)" %}}
-[![Prometheus](./img/prometheus.svg)](/flux/guides/monitoring/)
+[![Prometheus](./img/prometheus.svg)](/flux/operations/monitoring/)
 {{% /card %}}
 {{% card header="[SOPS](https://github.com/mozilla/sops)" %}}
 [![Prometheus](./img/mozilla.jpg)](/flux/guides/mozilla-sops/)
