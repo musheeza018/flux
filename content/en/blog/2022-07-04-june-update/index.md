@@ -48,7 +48,7 @@ This release comes with new features and improvements.
 - [Using Flux on GKE with Google Cloud Source
   Repositories](/flux/gcp-source-repository/).
 - [Monitoring Flux logs with Loki and
-  Grafana](/flux/guides/monitoring/).
+  Grafana](/flux/operations/monitoring/).
 
 **🤖 New improvements and fixes**
 
