@@ -180,7 +180,7 @@ For example, the design allows all controllers to access Flux CRDs (binds to `cr
 but only binds the Flux reconciler controllers for Kustomize and Helm to `cluster-admin` `ClusterRole`,
 as these are the only two controllers that manage resources in the cluster.
 
-However in a [soft multi-tenancy setup]({{< relref "../get-started#multi-cluster-setup" >}}),
+However in a [soft multi-tenancy setup]({{< relref "../concepts#multi-cluster-setup" >}}),
 Flux does not reconcile a tenant's repo under the `cluster-admin` role.
 Instead, you specify a different service account in your manifest, and the Flux controllers will use
 the Kubernetes Impersonation API under `cluster-admin` to impersonate that service account [^2].
