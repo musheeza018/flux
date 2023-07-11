@@ -46,7 +46,7 @@ This release comes with new features and improvements.
 - [Promote Flux Helm Releases with GitHub
   Actions](/flux/use-cases/gh-actions-helm-promotion/).
 - [Using Flux on GKE with Google Cloud Source
-  Repositories](/flux/use-cases/gcp-source-repository/).
+  Repositories](/flux/gcp-source-repository/).
 - [Monitoring Flux logs with Loki and
   Grafana](/flux/guides/monitoring/).
 
