@@ -390,7 +390,7 @@ removed from the cluster by kustomize-controller if
 It is possible to use Kustomize [Secret generator](https://kubectl.docs.kubernetes.io/references/kustomize/kustomization/secretgenerator/)
 to trigger a Helm release upgrade every time the encrypted secret values change.
 
-A SOPS configuration for your cluster is required first. Follow the [Manage Kubernetes secrets with Mozilla SOPS](../mozilla-sops/)
+A SOPS configuration for your cluster is required first. Follow the [Manage Kubernetes secrets with Mozilla SOPS](../operations/monitoring/mozilla-sops/)
 guide. The details of configuring SOPS are out of scope for this entry.
 
 Once you have SOPS configured, create a `kustomizeconfig.yaml` for Kustomize to
