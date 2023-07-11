@@ -229,7 +229,7 @@ good ways to do that:
   discussions](https://github.com/fluxcd/flux2/discussions)
 
 - And if you are completely new to Flux v2, take a look at our [Get
-  Started guide](/flux/get-started/) and give us feedback
+  Started guide](/flux/concepts/) and give us feedback
 
 - Social media: Follow [Flux on
   Twitter](https://twitter.com/fluxcd), join the
