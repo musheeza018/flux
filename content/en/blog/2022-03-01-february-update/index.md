@@ -278,9 +278,9 @@ just a quick summary of everything that landed in the past month:
 - Some docs which received particular attention this time around were
   - [Flux Resources](/resources/)
   - [Using Flux on
-    OpenShift](/flux/installation/paltform/openshift/)
+    OpenShift](/flux/installation/platform/openshift/)
   - [Monitoring with
-    Prometheus](/flux/guides/monitoring/)
+    Prometheus](/flux/operations/monitoring/)
 
 Thanks a lot to these folks who contributed to docs and website: Adam
 Dickinson, akirillow, Chanwit Kaewkasi, Davi Garcia, Emanuele Massara,
