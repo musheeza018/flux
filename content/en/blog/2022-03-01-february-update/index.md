@@ -278,7 +278,7 @@ just a quick summary of everything that landed in the past month:
 - Some docs which received particular attention this time around were
   - [Flux Resources](/resources/)
   - [Using Flux on
-    OpenShift](/flux/use-cases/openshift/)
+    OpenShift](/flux/installation/paltform/openshift/)
   - [Monitoring with
     Prometheus](/flux/guides/monitoring/)
 
