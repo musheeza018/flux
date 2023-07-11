@@ -21,7 +21,7 @@ OCI artifacts
 ## Prerequisites
 
 To follow this guide you’ll need a Kubernetes cluster with Flux installed on it.
-Please see the Flux [get started guide](https://fluxcd.io/flux/get-started/)
+Please see the Flux [get started guide](https://fluxcd.io/flux/concepts/)
 or the Flux [installation guide](https://fluxcd.io/flux/installation/).
 
 ## Deploy Flagger with Flux
