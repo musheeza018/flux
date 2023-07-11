@@ -90,7 +90,7 @@ spec:
 
 ### Helm OCI
 
-For Helm users, Flux comes with [support](/flux/guides/helmreleases/#helm-oci-repository) for
+For Helm users, Flux comes with [support](/flux/workflows/helmreleases/#helm-oci-repository) for
 defining Helm releases with charts stored in container registries.
 
 Example:
