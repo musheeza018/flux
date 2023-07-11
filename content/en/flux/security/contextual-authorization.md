@@ -61,9 +61,9 @@ For more information, please visit the tracking issue: https://github.com/fluxcd
 [AWS Helm Repository]: ../components/source/helmrepositories/#aws
 [Azure Helm Repository]: ../components/source/helmrepositories/#azure
 [GCP Helm Repository]: ../components/source/helmrepositories/#gcp
-[AWS Container Registry]: ../guides/image-update/#using-native-aws-ecr-auto-login
-[Azure Container Registry]: ../guides/image-update/#using-native-azure-acr-auto-login
-[GCP Container Registry]: ../guides/image-update/#using-native-gcp-gcr-auto-login
+[AWS Container Registry]: ../workflows/image-update/#using-native-aws-ecr-auto-login
+[Azure Container Registry]: ../workflows/image-update/#using-native-azure-acr-auto-login
+[GCP Container Registry]: ../workflows/image-update/#using-native-gcp-gcr-auto-login
 [AWS KMS]: ../guides/mozilla-sops/#aws
 [Azure KMS]: ../guides/mozilla-sops/#azure
 [GCP KMS]: ../guides/mozilla-sops/#google-cloud
