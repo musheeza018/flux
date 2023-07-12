@@ -407,7 +407,7 @@ following attributes to the OCIRepository's `.status.conditions`:
 
 If the verification fails, Flux will set the `SourceVerified` status to `False`
 and will not fetch the artifact contents from the registry. The verification
-failure will trigger an [alert](/flux/guides/notifications.md) and the
+failure will trigger an [alert](/flux/operations/notifications/) and the
 OCIRepository ready status message will contain the verification error message.
 
 ```console
