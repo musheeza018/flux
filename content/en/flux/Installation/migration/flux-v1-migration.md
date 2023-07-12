@@ -278,7 +278,7 @@ flux create alert app \
   --event-source=Kustomization/app
 ```
 
-For more details, read the guides on how to configure [notifications](../guides/notifications.md) and 
+For more details, read the guides on how to configure [notifications](../operations/notifications) and 
 [webhooks](../guides/webhook-receivers.md).
 
 ### Flux debugging
